@@ -13,6 +13,7 @@
 		040737D31F87295100013D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040737D11F87295100013D69 /* Main.storyboard */; };
 		040737D51F87295100013D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040737D41F87295100013D69 /* Assets.xcassets */; };
 		040737D81F87295100013D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040737D61F87295100013D69 /* LaunchScreen.storyboard */; };
+		040737E51F87702A00013D69 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 040737E41F87702A00013D69 /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		040737D41F87295100013D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040737D71F87295100013D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040737D91F87295100013D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040737E41F87702A00013D69 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = ../../../../Documents/ReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				040737D61F87295100013D69 /* LaunchScreen.storyboard */,
 				040737D91F87295100013D69 /* Info.plist */,
 				040737C81F87295100013D69 /* Supporting Files */,
+				040737E41F87702A00013D69 /* ReadMe.txt */,
 			);
 			path = MyGit;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				040737D81F87295100013D69 /* LaunchScreen.storyboard in Resources */,
 				040737D51F87295100013D69 /* Assets.xcassets in Resources */,
+				040737E51F87702A00013D69 /* ReadMe.txt in Resources */,
 				040737D31F87295100013D69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				040737DE1F87295100013D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
