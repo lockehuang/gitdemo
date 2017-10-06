@@ -14,6 +14,7 @@
 		040737D51F87295100013D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040737D41F87295100013D69 /* Assets.xcassets */; };
 		040737D81F87295100013D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040737D61F87295100013D69 /* LaunchScreen.storyboard */; };
 		040737E51F87702A00013D69 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 040737E41F87702A00013D69 /* ReadMe.txt */; };
+		040737E81F87787600013D69 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040737E71F87787600013D69 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		040737D71F87295100013D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040737D91F87295100013D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040737E41F87702A00013D69 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = ../../../../Documents/ReadMe.txt; sourceTree = "<group>"; };
+		040737E61F87787600013D69 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		040737E71F87787600013D69 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				040737D91F87295100013D69 /* Info.plist */,
 				040737C81F87295100013D69 /* Supporting Files */,
 				040737E41F87702A00013D69 /* ReadMe.txt */,
+				040737E61F87787600013D69 /* TestViewController.h */,
+				040737E71F87787600013D69 /* TestViewController.m */,
 			);
 			path = MyGit;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			files = (
 				040737D01F87295100013D69 /* ViewController.m in Sources */,
 				040737CD1F87295100013D69 /* AppDelegate.m in Sources */,
+				040737E81F87787600013D69 /* TestViewController.m in Sources */,
 				040737CA1F87295100013D69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
