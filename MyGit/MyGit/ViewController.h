@@ -11,5 +11,9 @@
 @interface ViewController : UIViewController
 
 
+@property (nonatomic,copy)NSString *name;
+@property (nonatomic,copy)NSString *pwd;
+
+
 @end
 
