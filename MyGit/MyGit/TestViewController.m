@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)loadData{
+    //测试
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
