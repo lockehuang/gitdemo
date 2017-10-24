@@ -1,0 +1,27 @@
+From 5f87be7979143c3ea1c6510c04b58f20d50e84fd Mon Sep 17 00:00:00 2001
+From: lockehuang <hx_huang126@126.com>
+Date: Tue, 24 Oct 2017 17:44:51 +0800
+Subject: [PATCH] loadData commit
+
+---
+ MyGit/MyGit/TestViewController.m | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/MyGit/MyGit/TestViewController.m b/MyGit/MyGit/TestViewController.m
+index 1b7e040..8fc82a4 100644
+--- a/MyGit/MyGit/TestViewController.m
++++ b/MyGit/MyGit/TestViewController.m
+@@ -19,6 +19,10 @@
+     // Do any additional setup after loading the view.
+ }
+ 
++- (void)loadData{
++    //测试
++}
++
+ - (void)didReceiveMemoryWarning {
+     [super didReceiveMemoryWarning];
+     // Dispose of any resources that can be recreated.
+-- 
+2.10.1
+
