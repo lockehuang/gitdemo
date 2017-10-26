@@ -1,0 +1,7 @@
+diff a/MyGit/MyGit/TestViewController.h b/MyGit/MyGit/TestViewController.h	(rejected hunks)
+@@ -10,4 +10,5 @@
+ 
+ @interface TestViewController : UIViewController
+ @property (nonatomic,copy)NSString *name;
++@property (nonatomic,copy)NSString *pwd;
+ @end

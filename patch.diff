@@ -1,36 +1,22 @@
-From ba9f4985b51fb326e009f3c2272edf1baf0ae765 Mon Sep 17 00:00:00 2001
+From 41cab0b784b6f21a05c56ae1360672f274faef48 Mon Sep 17 00:00:00 2001
 From: lockehuang <hx_huang126@126.com>
-Date: Tue, 24 Oct 2017 16:36:50 +0800
-Subject: [PATCH] test
+Date: Thu, 26 Oct 2017 14:39:30 +0800
+Subject: [PATCH] property pwd add
 
 ---
- MyGit/.DS_Store              | Bin 6148 -> 6148 bytes
- MyGit/MyGit/ViewController.m |   1 +
- 2 files changed, 1 insertion(+)
+ MyGit/MyGit/TestViewController.h | 1 +
+ 1 file changed, 1 insertion(+)
 
-diff --git a/MyGit/.DS_Store b/MyGit/.DS_Store
-index 5e9a04b4a29c1c166d70fb326915a2e4897e87ee..4ee2f0368f9bcdd742aa07c7bda9cb591031fb77 100644
-GIT binary patch
-delta 65
-zcmZoMXffDe!^jkoG`WCLg~!DurL-iOf#I6S>T8o1Fskt7=BJ<v88J@S{E$(NZDIr8
-JW_FIh`~cDS7Lxz~
-
-delta 65
-zcmZoMXffDe!^l+lZgK&m3Xh9RN@+<l1H;unUms3hz^KBPo1X#~dc6iHWW=~(^Fu~8
-OwuudVo7p-3@&f=s0~wJ3
-
-diff --git a/MyGit/MyGit/ViewController.m b/MyGit/MyGit/ViewController.m
-index 8d7b93e..65756bc 100644
---- a/MyGit/MyGit/ViewController.m
-+++ b/MyGit/MyGit/ViewController.m
-@@ -16,6 +16,7 @@
+diff --git a/MyGit/MyGit/TestViewController.h b/MyGit/MyGit/TestViewController.h
+index 62b2ee8..91c7f90 100644
+--- a/MyGit/MyGit/TestViewController.h
++++ b/MyGit/MyGit/TestViewController.h
+@@ -10,4 +10,5 @@
  
- - (void)viewDidLoad {
-     [super viewDidLoad];
-+    //啦啦啦啦啦
-     // Do any additional setup after loading the view, typically from a nib.
- }
- 
+ @interface TestViewController : UIViewController
+ @property (nonatomic,copy)NSString *name;
++@property (nonatomic,copy)NSString *pwd;
+ @end
 -- 
 2.10.1
 
