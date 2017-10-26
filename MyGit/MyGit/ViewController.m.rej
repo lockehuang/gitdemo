@@ -1,0 +1,9 @@
+diff a/MyGit/MyGit/ViewController.m b/MyGit/MyGit/ViewController.m	(rejected hunks)
+@@ -16,6 +16,7 @@
+ 
+ - (void)viewDidLoad {
+     [super viewDidLoad];
++    //啦啦啦啦啦
+     // Do any additional setup after loading the view, typically from a nib.
+ }
+ 
