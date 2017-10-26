@@ -1,3 +1,26 @@
+From c1f9a3b8655b2b59f62e392323b6ccbdca461f47 Mon Sep 17 00:00:00 2001
+From: lockehuang <hx_huang126@126.com>
+Date: Thu, 26 Oct 2017 14:37:02 +0800
+Subject: [PATCH] property
+
+---
+ MyGit/MyGit/TestViewController.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/MyGit/MyGit/TestViewController.h b/MyGit/MyGit/TestViewController.h
+index 3f6b7a3..62b2ee8 100644
+--- a/MyGit/MyGit/TestViewController.h
++++ b/MyGit/MyGit/TestViewController.h
+@@ -9,5 +9,5 @@
+ #import <UIKit/UIKit.h>
+ 
+ @interface TestViewController : UIViewController
+-
++@property (nonatomic,copy)NSString *name;
+ @end
+-- 
+2.10.1
+
 From 41cab0b784b6f21a05c56ae1360672f274faef48 Mon Sep 17 00:00:00 2001
 From: lockehuang <hx_huang126@126.com>
 Date: Thu, 26 Oct 2017 14:39:30 +0800
