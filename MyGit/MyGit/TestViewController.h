@@ -11,4 +11,5 @@
 @interface TestViewController : UIViewController
 @property (nonatomic,copy)NSString *name;
 @property (nonatomic,copy)NSString *pwd;
+@property (nonatomic,assign)NSInteger index;
 @end
