@@ -19,8 +19,8 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)loadData{
-    //测试
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {

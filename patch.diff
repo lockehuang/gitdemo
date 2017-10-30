@@ -1,45 +1,92 @@
-From c1f9a3b8655b2b59f62e392323b6ccbdca461f47 Mon Sep 17 00:00:00 2001
+From 6b409e6f79175cf2ccaa9bb6e7295c096b33d5fd Mon Sep 17 00:00:00 2001
 From: lockehuang <hx_huang126@126.com>
-Date: Thu, 26 Oct 2017 14:37:02 +0800
-Subject: [PATCH] property
+Date: Mon, 30 Oct 2017 13:51:35 +0800
+Subject: [PATCH] =?UTF-8?q?=E6=B5=8B=E8=AF=95=E8=A1=A5=E4=B8=81?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
 
 ---
- MyGit/MyGit/TestViewController.h | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ MyGit/MyGit/Base.lproj/Main.storyboard | 24 ++++++++++++++++++++----
+ MyGit/MyGit/TestViewController.m       |  4 ++--
+ MyGit/MyGit/ViewController.m           |  3 +++
+ 3 files changed, 25 insertions(+), 6 deletions(-)
 
-diff --git a/MyGit/MyGit/TestViewController.h b/MyGit/MyGit/TestViewController.h
-index 3f6b7a3..62b2ee8 100644
---- a/MyGit/MyGit/TestViewController.h
-+++ b/MyGit/MyGit/TestViewController.h
-@@ -9,5 +9,5 @@
- #import <UIKit/UIKit.h>
+diff --git a/MyGit/MyGit/Base.lproj/Main.storyboard b/MyGit/MyGit/Base.lproj/Main.storyboard
+index 4529698..45560c0 100644
+--- a/MyGit/MyGit/Base.lproj/Main.storyboard
++++ b/MyGit/MyGit/Base.lproj/Main.storyboard
+@@ -1,14 +1,18 @@
+-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
++<?xml version="1.0" encoding="UTF-8"?>
++<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
++    <device id="retina4_7" orientation="portrait">
++        <adaptation id="fullscreen"/>
++    </device>
+     <dependencies>
+-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
++        <deployment identifier="iOS"/>
++        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+     </dependencies>
+     <scenes>
+         <!--View Controller-->
+         <scene sceneID="tne-QT-ifu">
+             <objects>
+-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
++                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                     <layoutGuides>
+                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+@@ -16,6 +20,18 @@
+                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
++                        <subviews>
++                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLg-RY-9G3">
++                                <rect key="frame" x="111" y="276" width="46" height="30"/>
++                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
++                                <state key="normal" title="Button"/>
++                            </button>
++                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20P-HE-JNV">
++                                <rect key="frame" x="118" y="378" width="46" height="30"/>
++                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
++                                <state key="normal" title="Button"/>
++                            </button>
++                        </subviews>
+                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                     </view>
+                 </viewController>
+diff --git a/MyGit/MyGit/TestViewController.m b/MyGit/MyGit/TestViewController.m
+index 8fc82a4..7d13c97 100644
+--- a/MyGit/MyGit/TestViewController.m
++++ b/MyGit/MyGit/TestViewController.m
+@@ -19,8 +19,8 @@
+     // Do any additional setup after loading the view.
+ }
  
- @interface TestViewController : UIViewController
--
-+@property (nonatomic,copy)NSString *name;
- @end
--- 
-2.10.1
-
-From 41cab0b784b6f21a05c56ae1360672f274faef48 Mon Sep 17 00:00:00 2001
-From: lockehuang <hx_huang126@126.com>
-Date: Thu, 26 Oct 2017 14:39:30 +0800
-Subject: [PATCH] property pwd add
-
----
- MyGit/MyGit/TestViewController.h | 1 +
- 1 file changed, 1 insertion(+)
-
-diff --git a/MyGit/MyGit/TestViewController.h b/MyGit/MyGit/TestViewController.h
-index 62b2ee8..91c7f90 100644
---- a/MyGit/MyGit/TestViewController.h
-+++ b/MyGit/MyGit/TestViewController.h
-@@ -10,4 +10,5 @@
+-- (void)loadData{
+-    //测试
++- (void)viewWillAppear:(BOOL)animated{
++    [super viewWillAppear:animated];
+ }
  
- @interface TestViewController : UIViewController
- @property (nonatomic,copy)NSString *name;
-+@property (nonatomic,copy)NSString *pwd;
- @end
+ - (void)didReceiveMemoryWarning {
+diff --git a/MyGit/MyGit/ViewController.m b/MyGit/MyGit/ViewController.m
+index 060c69b..c26f2aa 100644
+--- a/MyGit/MyGit/ViewController.m
++++ b/MyGit/MyGit/ViewController.m
+@@ -20,6 +20,9 @@
+     // Do any additional setup after loading the view, typically from a nib.
+ }
+ 
++- (void)loadData{
++    NSLog(@"help");
++}
+ 
+ - (void)didReceiveMemoryWarning {
+     [super didReceiveMemoryWarning];
 -- 
 2.10.1
 
